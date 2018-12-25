@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  hs:
+    image: terrorjack/asterius:75a4277
+    tty: true
+    volumes:
+      - ./src:/root/asterius/src:Z
