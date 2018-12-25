@@ -1,7 +1,8 @@
 version: '3.2'
 services:
   hs:
-    image: terrorjack/asterius:75a4277
+    image: terrorjack/asterius:dec1461
     tty: true
     volumes:
       - ./src:/root/asterius/src:Z
+      - ./dist:/root/asterius/dist:Z
